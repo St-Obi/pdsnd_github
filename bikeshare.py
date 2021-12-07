@@ -155,6 +155,7 @@ def user_stats(df):
         print("Sorry, there's no data for 'Gender' in washington city")
 
     # Display earliest, most recent, and most common year of birth
+    # The try statement is for the washington city not to output error since it doesn't have Birth Year Column
     try:
         recent_birth_year = df['Birth Year'].max()
         print('Most Recent Birth Year: ' + str(recent_birth_year))
