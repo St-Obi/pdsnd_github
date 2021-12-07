@@ -174,7 +174,7 @@ def user_stats(df):
     user_input = input('Would you like to see the 5 rows of each city raw data? Enter \'Yes\' or \'No\': ').lower()
     start = 0
     finish = 5
-    while raw_data == 'yes':
+    while user_input == 'yes':
         print(df.iloc[start:finish])
         start += 5
         end += 5
