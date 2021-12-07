@@ -5,7 +5,7 @@
 Udacity Data Science Git Project
 
 ### Description
-Describe what your project is about and what it does
+This is a Data Analysis project that has to do with analyzing of three city's (washington, chicago, new york city) data, base on different categories of either by Monthly or Week_day.
 
 ### Files used
 Include the files used
