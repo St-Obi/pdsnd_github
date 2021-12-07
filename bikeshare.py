@@ -171,14 +171,14 @@ def user_stats(df):
     print('-'*40)
 
     # Display of raw data upon request by the users
-    raw_data = input('Would you like to see the 5 rows of each city raw data? Enter \'Yes\' or \'No\': ').lower()
+    user_input = input('Would you like to see the 5 rows of each city raw data? Enter \'Yes\' or \'No\': ').lower()
     start = 0
-    end = 5
+    finish = 5
     while raw_data == 'yes':
-        print(df.iloc[start:end])
+        print(df.iloc[start:finish])
         start += 5
         end += 5
-        raw_data = input('Would you like to see more data? Enter \'Yes\' or \'No\': ').lower()
+        user_input = input('Would you like to see more data? Enter \'Yes\' or \'No\': ').lower()
         
 
 def main():
