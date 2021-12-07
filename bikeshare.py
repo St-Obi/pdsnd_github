@@ -148,6 +148,7 @@ def user_stats(df):
     print('Total Number of Customers: ' + str(subscribers))
 
     #Display counts of gender
+    # The try statement is for the washington city not to output error since it doesn't have Gender Column
     try:
         gender_count = df['Gender'].count()
         print('Total Number Of Genders: ' + str(gender_count))
